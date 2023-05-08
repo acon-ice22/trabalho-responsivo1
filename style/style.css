@@ -1,0 +1,170 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: linear-gradient(blue), red;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blueviolet;
+    background-attachment: local;
+    background-color: black;
+}
+video{
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: local;
+
+}
+
+main{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4em;
+    margin: 0 auto;
+    background-image: url(https://i.pinimg.com/originals/7b/e6/c2/7be6c2bd607dedfb6bfca9ac4dd67b5d.jpg);
+}
+.foto{
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
+    margin-bottom: 2em;
+}
+
+.eu{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 20%;
+}
+section{
+    width: 100%;
+    margin: 0 auto;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+}
+.ta{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+.ta img{
+    width: 50%;
+    height: 100vh;
+}
+
+.ta div{
+    text-align: center;
+    padding: 50px;
+}
+.ta h2{
+    margin-bottom: 30px;
+}
+.tadois{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+
+}
+.tadois img{
+    width: 50%;
+    height: 100vh;
+}
+.tadois h2{
+margin-bottom: 30px;
+}
+.tadois div{
+    text-align: center;
+    padding: 50px;
+}
+.tat{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+}
+.tat img{
+    width: 50%;
+    height: 100vh;
+}
+.tat div{
+    text-align: center;
+    padding: 50px;
+}
+.tat h2{
+    margin-bottom: 30px;
+}
+#contato{
+    height: 300px;
+    background: linear-gradient(blue),rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
+@media (max-width: 800px){
+main{
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+
+}
+.eu{
+    text-align:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    max-width: 80%;
+}
+.ta{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.ta img{
+    width: 100%;
+    height: 100vh;
+}
+.tadois{
+    display: flex;
+    flex-direction: column-reverse;
+    width: auto;
+}
+.tadois img{
+    width: 100%;
+    height: 100vh;
+}
+.tat{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+.tat img{
+    width: 100%;
+    height: 100vh;
+}
+}
